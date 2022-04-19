@@ -13,13 +13,13 @@ spring:
 logging.level.org.springframework.web.servlet.DispatcherServlet: DEBUG
     
 server:
-  port: 4002
+  port: 4001
   
 eureka:
   instance:
-    hostname: localhost
+    hostname: dev-config.atlasifs.com
   client:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      defaultZone: ${EUREKA_URI:http://localhost:4002/}
+      defaultZone: ${EUREKA_URI:http://dev-config.atlasifs.com:4001/}
