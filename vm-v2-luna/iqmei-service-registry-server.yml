@@ -22,4 +22,4 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      defaultZone: ${EUREKA_URI:http://dev-config.atlasifs.com:4010/}
+      defaultZone: ${EUREKA_URI:http://${eureka.instance.hostname}:${server.port}/eureka/}           
