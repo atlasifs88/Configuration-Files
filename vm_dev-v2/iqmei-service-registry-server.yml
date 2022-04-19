@@ -13,7 +13,7 @@ spring:
 logging.level.org.springframework.web.servlet.DispatcherServlet: DEBUG
     
 server:
-  port: 4000
+  port: 4010
   
 eureka:
   instance:
