@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: iqmei-service-trace-server
+    
+server:
+  port: 10000
