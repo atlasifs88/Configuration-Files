@@ -14,7 +14,7 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: ${EUREKA_URI:http://localhost:4010}
+      defaultZone: ${EUREKA_URI:http://dev-config.atlasifs.com:4010/}
   instance:
     preferIpAddress: true  
   
