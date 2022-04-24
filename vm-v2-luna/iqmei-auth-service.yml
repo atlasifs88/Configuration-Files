@@ -8,7 +8,7 @@ spring:
       probability: 1  
                
 server:
-  port: 3510
+  port: 3500
   
   
 eureka:
