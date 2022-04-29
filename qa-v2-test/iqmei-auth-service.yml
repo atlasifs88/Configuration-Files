@@ -87,7 +87,7 @@ global:
 spring.mail.host: smtp.gmail.com
 spring.mail.port: 465
 spring.mail.username: support@atlasifs.com
-spring.mail.password: atl@sifs88
+spring.mail.password: M@rc0sGS!c@t1un@
 send.from.email: support@atlasifs.com
 spring.mail.properties.mail.smtp.auth:  true
 #spring.mail.properties.mail.smtp.starttls.enable: true
